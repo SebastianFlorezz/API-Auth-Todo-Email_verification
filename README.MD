@@ -2,14 +2,14 @@
 
 RESTful API para autenticación de usuarios y gestión de tareas, construida con Node.js, Express y Prisma ORM.
 
-## 🚀 Tecnologías
+## Tecnologías
 
 - **Node.js** + **Express** – Servidor y manejo de rutas
 - **Prisma ORM** – Acceso y gestión de base de datos
 - **JWT** – Autenticación mediante tokens
 - **Mailtrap** – Envío de emails para verificación de cuenta
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
 - Registro e inicio de sesión de usuarios
 - Verificación de email vía Mailtrap
@@ -17,7 +17,7 @@ RESTful API para autenticación de usuarios y gestión de tareas, construida con
 - CRUD completo de tareas por usuario autenticado
 - Respuestas siguiendo el estándar JSON:API
 
-## ⚙️ Instalación
+##  Instalación
 
 ```bash
 git clone https://github.com/SebastianFlorezz/API-Auth-Todo-Email_verification
@@ -214,6 +214,6 @@ El servidor corre en `http://localhost:5000`.
 
 ---
 
-## 🔒 Autenticación
+##  Autenticación
 
 La API usa **JWT Bearer Token**. Después de registrarte o iniciar sesión, incluye el token en todas las peticiones protegidas:
